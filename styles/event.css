@@ -1,0 +1,117 @@
+/* Body CSS Styling */
+body {
+  background-color: #C5C6D0 url('body.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header CSS styling */
+header {
+  display: flex;
+  flex-direction: row;
+  background-image: url('contact_header.jpg');
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 160px;
+}
+.Alumni_connect {
+  border-radius: 50%;
+}
+.trademark {
+  color: white;
+}
+.nav_links {
+  margin: 49px 0 0;
+  height: 20px;
+  width: 302px;
+}
+.nav_links a {
+  padding: 0 6px 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Main CSS Styling */
+section.events {
+  background-color: #C5C6D0 url('your-events-background.jpg') no-repeat center;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+.event_category {
+  background-color: #05284E;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.upcoming_events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.upcoming_events .event {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.event_img {
+  max-width: 100%;
+  height: auto;
+}
+
+.event_title {
+  font-size: 18px;
+}
+
+.event_date,
+.event_location {
+  color: #333;
+}
+
+.learn_more {
+  background-color: #05284E;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.learn_more:hover {
+  background-color: #D21404;
+}
+
+/* Footer CSS Styling */
+footer {
+  background-image: url('footer1.jpg');
+  height: 200px;
+  margin-top: 15px;
+}
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.alumni_cont {
+  margin-top: 10px;
+}
+.logo_cont {
+  margin-top: 40px;
+}
+footer p {
+  text-align: center;
+  margin-top: 40px;
+  color: #FBFBF9;
+}
+.logo_count a {
+  margin: 0 1em 0 0;
+}
+
