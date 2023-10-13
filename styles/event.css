@@ -15,7 +15,7 @@ header {
   justify-content: space-evenly;
   height: 160px;
 }
-.Alumni_connect {
+.alumni_connect {
   border-radius: 50%;
 }
 .trademark {
@@ -23,15 +23,15 @@ header {
 }
 .nav_links {
   margin: 49px 0 0;
-  height: 20px;
-  width: 302px;
+  height: 70px;
+  width: 340px;
 }
 .nav_links a {
-  padding: 0 6px 0;
+  padding: 0 0px 0;
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
+/*BOY I AM DONE WITH HEADER STYLING NOW START CHECKING THE MAIN STYLING*/
 /* Main CSS Styling */
 section.events {
   background-color: #C5C6D0 url('your-events-background.jpg') no-repeat center;
